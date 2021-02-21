@@ -5,6 +5,7 @@ import com.example.chain.Handler;
 import com.example.chain.SecondHandler;
 
 public class ChainOfResponsibilityDemo {
+    // Init method
     public static void main(String[] args) {
         Handler handler = getChainOfResponsibility();
         handler.handleRequest("Request");
